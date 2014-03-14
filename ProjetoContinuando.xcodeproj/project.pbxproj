@@ -21,6 +21,9 @@
 		752D333D18CE4E4F00CAE524 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752D331F18CE4E4F00CAE524 /* UIKit.framework */; };
 		752D334518CE4E4F00CAE524 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 752D334318CE4E4F00CAE524 /* InfoPlist.strings */; };
 		752D334718CE4E4F00CAE524 /* ProjetoContinuandoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 752D334618CE4E4F00CAE524 /* ProjetoContinuandoTests.m */; };
+		752D335118CE56A600CAE524 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752D335018CE56A600CAE524 /* Accounts.framework */; };
+		758A477418CF9C810079F7F5 /* Twitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 758A477318CF9C810079F7F5 /* Twitter.m */; };
+		944664BA18D2287200C09AB4 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752D335218CE56AF00CAE524 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,10 @@
 		752D334218CE4E4F00CAE524 /* ProjetoContinuandoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProjetoContinuandoTests-Info.plist"; sourceTree = "<group>"; };
 		752D334418CE4E4F00CAE524 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		752D334618CE4E4F00CAE524 /* ProjetoContinuandoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjetoContinuandoTests.m; sourceTree = "<group>"; };
+		752D335018CE56A600CAE524 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		752D335218CE56AF00CAE524 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		758A477218CF9C810079F7F5 /* Twitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Twitter.h; sourceTree = "<group>"; };
+		758A477318CF9C810079F7F5 /* Twitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Twitter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				944664BA18D2287200C09AB4 /* Social.framework in Frameworks */,
+				752D335118CE56A600CAE524 /* Accounts.framework in Frameworks */,
 				752D331E18CE4E4F00CAE524 /* CoreGraphics.framework in Frameworks */,
 				752D332018CE4E4F00CAE524 /* UIKit.framework in Frameworks */,
 				752D331C18CE4E4F00CAE524 /* Foundation.framework in Frameworks */,
@@ -101,6 +110,8 @@
 		752D331A18CE4E4F00CAE524 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				752D335218CE56AF00CAE524 /* Social.framework */,
+				752D335018CE56A600CAE524 /* Accounts.framework */,
 				752D331B18CE4E4F00CAE524 /* Foundation.framework */,
 				752D331D18CE4E4F00CAE524 /* CoreGraphics.framework */,
 				752D331F18CE4E4F00CAE524 /* UIKit.framework */,
@@ -117,6 +128,8 @@
 				752D332D18CE4E4F00CAE524 /* Main.storyboard */,
 				752D333018CE4E4F00CAE524 /* ViewController.h */,
 				752D333118CE4E4F00CAE524 /* ViewController.m */,
+				758A477218CF9C810079F7F5 /* Twitter.h */,
+				758A477318CF9C810079F7F5 /* Twitter.m */,
 				752D333318CE4E4F00CAE524 /* Images.xcassets */,
 				752D332218CE4E4F00CAE524 /* Supporting Files */,
 			);
@@ -252,6 +265,7 @@
 				752D333218CE4E4F00CAE524 /* ViewController.m in Sources */,
 				752D332C18CE4E4F00CAE524 /* AppDelegate.m in Sources */,
 				752D332818CE4E4F00CAE524 /* main.m in Sources */,
+				758A477418CF9C810079F7F5 /* Twitter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +474,7 @@
 				752D334C18CE4E4F00CAE524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		752D334D18CE4E4F00CAE524 /* Build configuration list for PBXNativeTarget "ProjetoContinuandoTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +483,7 @@
 				752D334F18CE4E4F00CAE524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
